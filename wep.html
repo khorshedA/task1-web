@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Diary</title>
+    <link rel="stylesheet" href="style.Css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Travel Diary</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          Welcome to my travel diary where I document my adventures around the
+          world.
+        </p>
+        <img src="travel.jpg" alt="Travel Image" />
+      </section>
+
+      <section>
+        <h2>Places Visited</h2>
+        <ul>
+          <li>Paris, France</li>
+          <li>Tokyo, Japan</li>
+          <li>Rome, Italy</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Share Your Experience</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <section>
+        <h2>Travel Expenses</h2>
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Cost</th>
+          </tr>
+          <tr>
+            <td>Flight</td>
+            <td>$1000</td>
+          </tr>
+          <tr>
+            <td>Accommodation</td>
+            <td>$500</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Travel Diary. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
